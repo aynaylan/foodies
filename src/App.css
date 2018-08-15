@@ -1,0 +1,82 @@
+body{
+  font-size: 1.5em;
+  font-family: 'Indie Flower', cursive;
+}
+
+.hd{
+  background-image: url("header.jpg");
+  /* Set a specific height */
+  height: 20%; 
+
+  text-align: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0.1%;
+}
+
+.rc{
+  background-image: url("recipe.jpg");
+  /* Set a specific height */
+  height: 20%; 
+
+  text-align: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+
+}
+
+h1{
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: 'Chela One', cursive;
+}
+h2{
+  color: white;
+  
+
+}
+.contact{
+  background-image: url("contact.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1%;
+  margin-top: 0%;
+  text-align: center;
+  
+}
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 6% 8%;
+  transition: margin 0.4s ease;
+}
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+.owl-item:not(.center) > div:hover {
+  opacity: .75;
+}
+
+.post{
+  background-image: url("post.jpg");
+  /* Set a specific height */
+  height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding-top: 0.1%;*/
+}
